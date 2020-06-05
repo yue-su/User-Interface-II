@@ -24,6 +24,7 @@ body {
     padding: 10px; */
     font-size: 1.6rem;
     background-color: rgb(245, 245, 245);
+    color: rgb(41, 41, 41);
 }
 
 h1 {
@@ -33,14 +34,14 @@ h1 {
 }
 
 h2 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     font-weight: 500;
 }
 
 .header-containner{
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 5rem 8rem;
     background-image: linear-gradient(-90deg, rgb(126, 126, 126), rgba(255, 255, 255, 0.205)),
     url("/img/header-bk.jpg");
     background-size: cover;
@@ -66,9 +67,24 @@ h2 {
     /* border: 1px solid grey; */
 }
 
+.btn {
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 1rem 2rem;
+    width: 18rem;
+    border-radius: 4px;
+    color: rgb(54, 54, 54);
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    
+}
+
 .section-story {
     display: flex;
-    padding: 0 5rem;
+    margin: 5rem 8rem;
 }
 
 .story-photo-containner {
@@ -81,21 +97,20 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-content: space-around;
-    padding: 10rem 5rem;
+    justify-content: space-between;
+    padding: 10rem 5rem 0 5rem;
+    line-height: 2.5rem;
 }
-
-
 
 .story-photo{
     width: 100%;
     object-fit: cover;
-    height: 80%;
     border-radius: 3px;
+    filter: opacity(80%);
 }
 
 .section-project {
-    padding: 0 5rem;
+    padding: 0 8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -107,9 +122,10 @@ h2 {
 }
 
 .project-photo {
-    width: 22rem;
-    height: 22rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: cover;
+    filter: opacity(90%);
 }
 
 .project-title {
@@ -127,4 +143,8 @@ h2 {
     justify-content: center;
     align-items: center;
     color:rgb(245, 245, 245);
+}
+
+.contact-text {
+    margin-bottom: 3rem;
 }
