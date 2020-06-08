@@ -202,3 +202,43 @@ h2 {
     }
 
 }
+
+@media (max-width:500px) {
+    body {
+        max-width: 500;
+    }
+
+    .header-containner{
+        padding: 2rem;
+        align-items: center;
+        height: auto;
+        line-height: 3rem;
+    }
+
+    .nav-containner {
+        flex-direction: column;
+    }
+
+    .section-story {
+        margin: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .story-photo-containner{
+        width: 100%;
+    }
+
+    .story-text-containner{
+        width: 100%;
+        padding: 4rem 2rem;
+        align-items: center;
+        height: 30rem;
+    }
+
+    .section-project {
+        padding: 0 3rem;
+    }
+    
+
+
+}
