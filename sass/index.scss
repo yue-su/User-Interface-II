@@ -1,0 +1,30 @@
+
+$cultured: #f8f9faff;
+$cultured-2: #e9ecefff;
+$gainsboro: #dee2e6ff;
+$light-gray: #ced4daff;
+$cadet-blue-crayola: #adb5bdff;
+$slate-gray: #6c757dff;
+$davys-grey: #495057ff;
+$gunmetal: #343a40ff;
+$charleston-green: #212529ff;
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+    font-size: 1.6rem;
+    background-color: $cultured;
+    color: $charleston-green;
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+@import "main";
+
+@import "card";
+

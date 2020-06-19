@@ -114,7 +114,7 @@ h2 {
     display:block;
     object-fit: cover;
     border-radius: 3px;
-    filter: opacity(80%);
+    filter: opacity(90%);
 }
 
 .story-photo:hover {

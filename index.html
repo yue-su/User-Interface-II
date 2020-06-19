@@ -4,42 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YUE SU</title>
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-containner">
-        <h1 class="main-title">YUE SU</h1>
-        <nav>
-            <ul class="nav-containner">
-                <li><a class="btn-nav" href="#">Home</a></li>
-                <li><a class="btn-nav" href="about.html">About</a></li>
-                <li><a class="btn-nav" href="projects.html">Projects</a></li>
-                <li><a class="btn-nav" href="contact.html">Contact</a></li>
+    <header class="main">
+        <h1 class="main__title">YUE SU</h1>
+        <nav class="main-nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="about.html">About</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="projects.html">Projects</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section class="section-story">
-        <div class="story-photo-containner">
-            <!-- <p>Text</p> -->
-            <img src="./img/header-photo-bw.JPG" alt="header-photo" class="story-photo">
-        </div>
-        <div class="story-text-containner">
-            <h2>YUE SU</h2>
-            <a href="projects.html" class="btn">My Projects</a>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, distinctio molestiae placeat amet molestias, fuga ea libero illo hic fugit saepe explicabo quasi illum doloremque nemo dolore? Quia, laborum rem.</p>
+    
+    <section class="card">
+        <figure class="card__figure">
+            <img src="./img/header-photo-bw.JPG" alt="header-photo" class="card__image">
+        </figure>
+        <div class="card__body">
+            <h2 class="card__title">YUE SU</h2>
+            <div class="card__action"><a href="projects.html" class="button">My Projects</a></div>
+            <p class="card__copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, distinctio molestiae placeat amet molestias, fuga ea libero illo hic fugit saepe explicabo quasi illum doloremque nemo dolore? Quia, laborum rem.</p>
         </div>
     </section>
-    <section class="section-project">
-        <div class="project-card"><img src="./img/1.jpg" alt="1" class="project-photo"><h3 class="project-title">Cloud</h3></div>
-        <div class="project-card"><img src="./img/2.jpg" alt="2" class="project-photo"><h3 class="project-title">Sky</h3></div>
-        <div class="project-card"><img src="./img/3.jpg" alt="3" class="project-photo"><h3 class="project-title">City</h3></div>
-        <div class="project-card"><img src="./img/4.jpg" alt="4" class="project-photo"><h3 class="project-title">Rose</h3></div>
-        <div class="project-card"><img src="./img/5.jpg" alt="5" class="project-photo"><h3 class="project-title">Angle</h3></div>
-        <div class="project-card"><img src="./img/6.jpg" alt="6" class="project-photo"><h3 class="project-title">Fall</h3></div>
-        <div class="project-card"><img src="./img/7.jpg" alt="7" class="project-photo"><h3 class="project-title">Atlanta</h3></div>
-        <div class="project-card"><img src="./img/8.jpg" alt="8" class="project-photo"><h3 class="project-title">Land</h3></div>
+
+    <section class="project">
+        <div class="project__card"><img src="./img/1.jpg" alt="1" class="project__photo"><h3 class="project__title">Cloud</h3></div>
+        <div class="project__card"><img src="./img/2.jpg" alt="2" class="project__photo"><h3 class="project__title">Sky</h3></div>
+        <div class="project__card"><img src="./img/3.jpg" alt="3" class="project__photo"><h3 class="project__title">City</h3></div>
+        <div class="project__card"><img src="./img/4.jpg" alt="4" class="project__photo"><h3 class="project__title">Rose</h3></div>
+        <div class="project__card"><img src="./img/5.jpg" alt="5" class="project__photo"><h3 class="project__title">Angle</h3></div>
+        <div class="project__card"><img src="./img/6.jpg" alt="6" class="project__photo"><h3 class="project__title">Fall</h3></div>
+        <div class="project__card"><img src="./img/7.jpg" alt="7" class="project__photo"><h3 class="project__title">Atlanta</h3></div>
+        <div class="project__card"><img src="./img/8.jpg" alt="8" class="project__photo"><h3 class="project__title">Land</h3></div>
     </section>
+    
     <footer class="section-contact">
         <h2 class="contact-text">Hit me up!</h2>
         <a href="./contact.html" class="btn">Contact Me</a>
